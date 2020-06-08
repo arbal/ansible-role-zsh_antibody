@@ -1,6 +1,10 @@
 ansible-role-zsh_antibody
 =========
 
+[![Build Status](https://travis-ci.com/iancleary/ansible-role-zsh_antibody.svg?branch=master)](https://travis-ci.com/iancleary/ansible-role-zsh_antibody)
+[![Ansible Galaxy](https://img.shields.io/badge/ansible--galaxy-iancleary.zsh_antibody-blue.svg)](https://galaxy.ansible.com/iancleary/zsh_antibody)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/iancleary/ansible-role-zsh_antibody/master/LICENSE)
+
 This role installs the [ZSH](https://www.zsh.org/), with the [antibody](https://getantibody.github.io/) plugin manager, onto an Ubuntu system.
 
 Plugins can be found here:
@@ -102,7 +106,7 @@ Author Information
 
 This role was created in 2020 by [Ian Cleary](https://iancleary.me).
 
-It was derived from the MIT licensed [gantsign/ansible-role-oh-my-zsh](https://github.com/gantsign/ansible-role-oh-my-zsh) and [gantsign/ansible_role_antigen](https://github.com/gantsign/ansible_role_antigen).
+It was derived from the MIT licensed [gantsign/ansible-role-oh-my-zsh](https://github.com/gantsign/ansible-role-oh-my-zsh) and [iancleary/ansible-role-zsh_antibody](https://github.com/iancleary/ansible-role-zsh_antibody).
 
 > I prefer to use antibody, so if you prefer antigen, please use the above antigen repo!
 
