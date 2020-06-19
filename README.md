@@ -1,9 +1,9 @@
 ansible-role-zsh_antibody
 =========
 
-[![Build Status](https://travis-ci.com/iancleary/ansible-role-zsh_antibody.svg?branch=master)](https://travis-ci.com/iancleary/ansible-role-zsh_antibody)
+[![Build Status](https://travis-ci.com/iancleary/ansible-role-zsh_antibody.svg?branch=main)](https://travis-ci.com/iancleary/ansible-role-zsh_antibody)
 [![Ansible Galaxy](https://img.shields.io/badge/ansible--galaxy-iancleary.zsh_antibody-blue.svg)](https://galaxy.ansible.com/iancleary/zsh_antibody)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/iancleary/ansible-role-zsh_antibody/master/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/iancleary/ansible-role-zsh_antibody/main/LICENSE)
 
 This role installs the [ZSH](https://www.zsh.org/), with the [antibody](https://getantibody.github.io/) plugin manager, onto an Ubuntu system.
 
