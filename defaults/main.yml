@@ -11,7 +11,7 @@ antibody_bundles:
   # - name: aws
   # - name: docker
   # - name: docker-compose
-  - name: git
+  - name: gitfast
   # - name: pipenv
   - name: poetry
   - name: yarn
@@ -27,5 +27,7 @@ antibody_bundles:
       url: zsh-users/zsh-autosuggestions
       version: v0.6.4
 zsh_theme: robbyrussell
-zsh_custom_shell_command: "false" # useful when users are bound to external systems (active directory)
-# for example "/opt/pbis/bin/config LoginShellTemplate $(which zsh)"
+zsh_custom_shell_command: "false"
+# useful when users are bound to external systems (i.e. active directory)
+# zsh_custom_shell_command: "true"
+# zsh_default_shell_command: "/opt/pbis/bin/config LoginShellTemplate /usr/bin/zsh"
