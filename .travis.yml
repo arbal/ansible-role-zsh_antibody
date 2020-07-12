@@ -2,12 +2,18 @@
 language: python
 services: docker
 
+branches:
+  only:
+    - "main"
+
 env:
   global:
     - ROLE_NAME: zsh_antibody
   matrix:
     - MOLECULE_DISTRO: ubuntu2004
     - MOLECULE_DISTRO: ubuntu1804
+    - MOLECULE_DISTRO: fedora31
+    - MOLECULE_DISTRO: fedora32
 
 install:
   # Install test dependencies.
