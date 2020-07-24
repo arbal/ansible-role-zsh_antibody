@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.4.1] - 2020-07-24
+
+### Changed
+
+- .zshrc.j2 template had extra `}` in jinja2 if block
+
 ## [0.4.0] - 2020-07-24
 
 ### Changed
@@ -36,7 +42,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial role! 🚀
 
-[Unreleased]: https://github.com/iancleary/ansible-role-zsh_antibody/compare/v0.4.0...HEAD
+[Unreleased]: https://github.com/iancleary/ansible-role-zsh_antibody/compare/v0.4.1...HEAD
+[0.4.1]: https://github.com/iancleary/ansible-role-zsh_antibody/releases/tag/v0.4.1
 [0.4.0]: https://github.com/iancleary/ansible-role-zsh_antibody/releases/tag/v0.4.0
 [0.3.0]: https://github.com/iancleary/ansible-role-zsh_antibody/releases/tag/v0.3.0
 [0.2.0]: https://github.com/iancleary/ansible-role-zsh_antibody/releases/tag/v0.2.0
