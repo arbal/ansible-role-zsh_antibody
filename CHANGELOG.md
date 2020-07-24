@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.5.0] - 2020-07-24
+
+### Added
+
+- `skip_zshrc` per user option
+
 ## [0.4.2] - 2020-07-24
 
 ### Changed
@@ -48,7 +54,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial role! 🚀
 
-[Unreleased]: https://github.com/iancleary/ansible-role-zsh_antibody/compare/v0.4.2...HEAD
+[Unreleased]: https://github.com/iancleary/ansible-role-zsh_antibody/compare/v0.5.0...HEAD
+[0.5.0]: https://github.com/iancleary/ansible-role-zsh_antibody/releases/tag/v0.5.0
 [0.4.2]: https://github.com/iancleary/ansible-role-zsh_antibody/releases/tag/v0.4.2
 [0.4.1]: https://github.com/iancleary/ansible-role-zsh_antibody/releases/tag/v0.4.1
 [0.4.0]: https://github.com/iancleary/ansible-role-zsh_antibody/releases/tag/v0.4.0

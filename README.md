@@ -7,7 +7,7 @@ ansible-role-zsh_antibody
 
 This role installs the [ZSH](https://www.zsh.org/), with the [antibody](https://getantibody.github.io/) plugin manager, onto a supported Linux system (see Requirements section below for list of supported OS).
 
-Plugins can be found here:
+Official plugins can be found here:
 
 * <https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins>
 * <https://github.com/zsh-users> (only select repos are plugins)
@@ -90,7 +90,10 @@ Including an example of how to use your role (for instance, with variables passe
   roles:
     - role: iancleary.zsh_antibody
       users:
-        - username: example
+        - username: test_usr1
+        - username: test_usr2
+        - username: test_usr3
+          skip_zshrc: true
       antibody_bundles:
         - name: gitfast
         - name: poetry
@@ -98,7 +101,7 @@ Including an example of how to use your role (for instance, with variables passe
         - name: zsh
         # Syntax highlighting bundle.
         - name: zsh-syntax-highlighting
-          repo:
+          git:
             user: zsh-users
             repo: zsh-syntax-highlighting
             version: 0.7.1
